@@ -17,35 +17,42 @@ Optional:
  3. Open the File Explore, navigate to the parent folder of the folder which you want to store the code (Ex: D:\Learning\Selenium). Click on the Address bar and type `cmd`. A terminal will appear.
    4. On this terminal, type `git clone [your git repository link] [the name of the folder you want to store the code]`. Please remember to give **your** repository link, not the original one. Example: https://tgit.kms-technology.com/phuonglam/test-202-introducing-selenium.git not https://tgit.kms-technology.com/fundamentals/test-202-introducing-selenium.git
   
-  # Compile and run with IntelliJ
-  1. Open the project: File > Open > Navigate to project location
-  2. Add JDK to IntelliJ: File > Project Structure > Platform Settings > SDKs > Click on Add button at the top of popup > JDK > Navigate to JDK home (Example: C:\Program Files\Java\jdk1.8.0_152)
-  3. Set JDK for the project: On the Project Structure popup > Project Settings > Project SDK > Select above JDK
-  4. Set project language level: On the Project Structure popup > Project Settings > Project Language Level > Select level 8. The go to Module section > Language Level > Select level 8
-  5. Add Run Configuration: Run > Edit Configurations > Click on Add button > JUnit > Name it "Run test" > On the "Test Type" field select "All in package" > On the "Package" field type "vn.kms.course.selenium.tests"
-  6. Select above configuration and run
+
+# Compile and run with IntelliJ
+1. Open the project: File > Open > Navigate to project location
+2. Add JDK to IntelliJ: File > Project Structure > Platform Settings > SDKs > Click on Add button at the top of popup > JDK > Navigate to JDK home (Example: C:\Program Files\Java\jdk1.8.0_152)
+3. Set JDK for the project: On the Project Structure popup > Project Settings > Project SDK > Select above JDK
+4. Set project language level: On the Project Structure popup > Project Settings > Project Language Level > Select level 8. The go to Module section > Language Level > Select level 8
+5. Add Run Configuration: Run > Edit Configurations > Click on Add button > JUnit > Name it "Run test" > On the "Test Type" field select "All in package" > On the "Package" field type "vn.kms.course.selenium.tests"
+6. Select above configuration and run
   
-  # Write tests
-  These cases are to test the (legacy) PA system, it's deployed at http://192.168.74.25/patest.
-  ## Deadlines Setting in home page:
-   1. Login to PA system using valid information: daitran/kms.
-   2. Verify that user is at home page.
-   3. Verify that the Deadlines Setting data is correct. Some suggested validation points are:
-       * The **number of rows** in table is correct.
-       * The **content of Description column** is correct.
+
+
+# Write tests
+These cases are to test the (legacy) PA system, it's deployed at http://192.168.74.25/patest.
+
+
+## Deadlines Setting in home page:
+1. Login to PA system using valid information: daitran/kms.
+2. Verify that user is at home page.
+3. Verify that the Deadlines Setting data is correct. Some suggested validation points are:
+   * The **number of rows** in table is correct.
+   * The **content of Description column** is correct.
        * The **deadline of below row** is **not earlier** than in **its above row**.
-  ## Create Feedback UI:
-  1. Login to PA system using valid information: daitran/kms.
-  2. Verify that user is at homepage.
-  3. Go to Create Feedback page.
-  4. Verify Create Feedback page UI. Some suggested validation points are:
-      * The default value of **Provide FB** for is _Myself_
-      * The default value of **Feedback Type** is _Short feedback_
-      * The default value of **For date** is _current date_
-      * There are **two tabs**: _Content_ and _Attachments_ 
-  
-  After finishing those test cases, if you still want to practice more, write out some test cases for the PA system, including the detailed test steps and validation points (I think it's easy since... you're testers, right? Writing test cases is what you do in your daily job) and then try to automate them.
+
+
+## Create Feedback UI:
+1. Login to PA system using valid information: daitran/kms.
+2. Verify that user is at homepage.
+3. Go to Create Feedback page.
+4. Verify Create Feedback page UI. Some suggested validation points are:
+  * The default value of **Provide FB** for is _Myself_
+  * The default value of **Feedback Type** is _Short feedback_
+  * The default value of **For date** is _current date_
+  * There are **two tabs**: _Content_ and _Attachments_ 
+After finishing those test cases, if you still want to practice more, write out some test cases for the PA system, including the detailed test steps and validation points (I think it's easy since... you're testers, right? Writing test cases is what you do in your daily job) and then try to automate them.
    
+
 # Some suggestion
 
 * Apply POM to manage your code
@@ -58,7 +65,6 @@ Optional:
 
 # Contact
 If you need to ask something, feel free to get Phuong at:
-
 * Skype: phuonglm94
 * Email: phuonglam@kms-technology.com
 * Work location: 8.30TS
