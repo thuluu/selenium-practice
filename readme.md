@@ -38,7 +38,7 @@ These cases are to test the (legacy) PA system, it's deployed at http://192.168.
 3. Verify that the Deadlines Setting data is correct. Some suggested validation points are:
    * The **number of rows** in table is correct.
    * The **content of Description column** is correct.
-       * The **deadline of below row** is **not earlier** than in **its above row**.
+   * The **deadline of below row** is **not earlier** than in **its above row**.
 
 
 ## Create Feedback UI:
