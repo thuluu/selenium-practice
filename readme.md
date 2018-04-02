@@ -50,6 +50,8 @@ These cases are to test the (legacy) PA system, it's deployed at http://192.168.
   * The default value of **Feedback Type** is _Short feedback_
   * The default value of **For date** is _current date_
   * There are **two tabs**: _Content_ and _Attachments_ 
+  
+
 After finishing those test cases, if you still want to practice more, write out some test cases for the PA system, including the detailed test steps and validation points (I think it's easy since... you're testers, right? Writing test cases is what you do in your daily job) and then try to automate them.
    
 
