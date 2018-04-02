@@ -1,8 +1,8 @@
 Selenium Practice
 ===========
 # Installation
-1. JDK: It stands for Java Development Kit. You need it to compile and run the code (since it's written in Java :D). Here's the [link](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) to download it.
-2. Maven: Maven is a tool to manage the program lifecycle and dependencies. In this framework, its main purpose is to manage dependencies. You can download it [here](https://maven.apache.org/download.cgi) and find the installation guide [here](https://maven.apache.org/install.html). In case you don't know how to set environment variables, you can find the instruction [here](https://www.java.com/en/download/help/path.xml)
+1. JDK: It stands for Java Development Kit. You need it to compile and run the code (since it's written in Java :D). Here's the [link](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) to download it. After download it, you may need to add the Java home location to PATH envirnoment variable. [Here](https://www.java.com/en/download/help/path.xml)'s the instruction to set.
+2. Maven: Maven is a tool to manage the program lifecycle and dependencies. In this framework, its main purpose is to manage dependencies. You can download it [here](https://maven.apache.org/download.cgi) and find the installation guide [here](https://maven.apache.org/install.html).
 3. Git: Git is a version control tool. It helps us to manage our code version easier. You can find way to download its [here](https://git-scm.com/). For ones that don't know how to use Git, don't worry since in this framework you just need to know very few Git commands, which will be listed in below section. If you want to learn seriously about Git, One recommended course is [here](https://www.datacamp.com/courses/introduction-to-git-for-data-science) in DataCamp.
 
 Optional:
@@ -53,9 +53,9 @@ These cases are to test the (legacy) PA system, it's deployed at http://192.168.
 After finishing those test cases, if you still want to practice more, write out some test cases for the PA system, including the detailed test steps and validation points (I think it's easy since... you're testers, right? Writing test cases is what you do in your daily job) and then try to automate them.
    
 
-# Some suggestion
+# Some suggestions
 
-* Apply POM to manage your code
+* Apply [POM](https://www.guru99.com/page-object-model-pom-page-factory-in-selenium-ultimate-guide.html) to manage your code
 * Try to avoid duplicate code (Tips: When you're using Ctrl+C/Ctrl+V, maybe you're duplicating code)
 
 # Commit code
