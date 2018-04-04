@@ -3,10 +3,10 @@ package vn.kms.course.selenium.bases;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-import static vn.kms.course.selenium.data.Constant.BASE_URL;
 
 
 public class BasePage {
+    private static final String BASE_URL="http://192.168.74.230";
     protected String path;
     protected WebDriver webDriver;
     public BasePage(WebDriver webDriver){
