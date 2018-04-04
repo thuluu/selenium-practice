@@ -14,32 +14,34 @@ Optional:
 # Download the code
 1. Ask Chi Tran to give you access to training git site of KMS. Contact Phuong Lam so that she can add you to the course repository.
 2. Fork the project to your own repository (Using Fork button in the project page)
- 3. Open the File Explore, navigate to the parent folder of the folder which you want to store the code (Ex: D:\Learning\Selenium). Click on the Address bar and type `cmd`. A terminal will appear.
-   4. On this terminal, type `git clone [your git repository link] [the name of the folder you want to store the code]`. Please remember to give **your** repository link, not the original one. Example: https://tgit.kms-technology.com/phuonglam/test-202-introducing-selenium.git not https://tgit.kms-technology.com/fundamentals/test-202-introducing-selenium.git
+3. Open the File Explore, navigate to the parent folder of the folder which you want to store the code (Ex: D:\Learning\Selenium). Click on the Address bar and type `cmd`. A terminal will appear.
+4. On this terminal, type `git clone [your git repository link] [the name of the folder you want to store the code]`. Please remember to give **your** repository link, not the original one. Example: https://tgit.kms-technology.com/phuonglam/test-202-introducing-selenium.git not https://tgit.kms-technology.com/fundamentals/test-202-introducing-selenium.git
   
-  # Compile and run with IntelliJ
-  1. Open the project: File > Open > Navigate to project location
-  2. Add JDK to IntelliJ: File > Project Structure > Platform Settings > SDKs > Click on Add button at the top of popup > JDK > Navigate to JDK home (Example: C:\Program Files\Java\jdk1.8.0_152)
-  3. Set JDK for the project: On the Project Structure popup > Project Settings > Project SDK > Select above JDK
-  4. Set project language level: On the Project Structure popup > Project Settings > Project Language Level > Select level 8. The go to Module section > Language Level > Select level 8
-  5. Set Target byte code version: File > Settings > Build, Execution, Deployment > Compiler > Java Compiler > On the SeleniumPractice module's target byte code version, select 1.8
-  5. Add Run Configuration: Run > Edit Configurations > Click on Add button > JUnit > Name it "Run test" > On the "Test Type" field select "All in package" > On the "Package" field type "vn.kms.course.selenium.tests"
-  6. Select above configuration and run
+
+# Compile and run with IntelliJ
+1. Open the project: File > Open > Navigate to project location
+2. Add JDK to IntelliJ: File > Project Structure > Platform Settings > SDKs > Click on Add button at the top of popup > JDK > Navigate to JDK home (Example: C:\Program Files\Java\jdk1.8.0_152)
+3. Set JDK for the project: On the Project Structure popup > Project Settings > Project SDK > Select above JDK
+4. Set project language level: On the Project Structure popup > Project Settings > Project Language Level > Select level 8. The go to Module section > Language Level > Select level 8
+5. Set Target byte code version: File > Settings > Build, Execution, Deployment > Compiler > Java Compiler > On the SeleniumPractice module's target byte code version, select 1.8
+5. Add Run Configuration: Run > Edit Configurations > Click on Add button > JUnit > Name it "Run test" > On the "Test Type" field select "All in package" > On the "Package" field type "vn.kms.course.selenium.tests"
+6. Select above configuration and run
   
-  # Write tests
-  These cases are to test the Saleor system, it's deployed at http://192.168.74.230.
-  ## Login successfully
-  1. Navigate user to login page
-  2. Fill in username/password fields with valid credentials: admin@sample.com/Kms@2017
-  3. Click Login btn. Expected result: 
-      * User is navigated to Home page. 
-      * On the top-right corner, there're three items: DASHBOARD, YOUR ACCOUNT and LOG OUT
-  4. Click Log out btn. Expected result: 
-       * User is navigated to Home page. 
-       * On the top-right corner, there're two items: REGISTER, LOGIN. 
-       * The message "You have been successfully logged out." is displayed
-  
-  ## Validate add to cart feature
+
+# Write tests
+These cases are to test the Saleor system, it's deployed at http://192.168.74.230.
+## Login successfully
+1. Navigate user to login page
+2. Fill in username/password fields with valid credentials: admin@sample.com/Kms@2017
+3. Click Login btn. Expected result: 
+  * User is navigated to Home page. 
+  * On the top-right corner, there're three items: DASHBOARD, YOUR ACCOUNT and LOG OUT
+4. Click Log out btn. Expected result: 
+   * User is navigated to Home page. 
+   * On the top-right corner, there're two items: REGISTER, LOGIN. 
+   * The message "You have been successfully logged out." is displayed
+
+## Validate add to cart feature
 1.  Navigate to Apparel page
 2. Select a random product, click on it
 3. Enter a random quantity number
@@ -51,10 +53,10 @@ Optional:
 9. Navigate to cart page. Expected result:
     - Number of products is correct
     - Product information (Name, quantity, price) is correct
-    - Subtotal and total is correct
+    - Subtotal is correct
 
-  
-  After finishing those test cases, if you still want to practice more, write out some test cases for the Saleor, including the detailed test steps and validation points (I think it's easy since... you're testers, right? Writing test cases is what you do in your daily job) and then try to automate them.
+
+After finishing those test cases, if you still want to practice more, write out some test cases for the Saleor, including the detailed test steps and validation points (I think it's easy since... you're testers, right? Writing test cases is what you do in your daily job) and then try to automate them.
    
 # Some suggestion
 
