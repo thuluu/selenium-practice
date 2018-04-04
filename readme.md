@@ -16,7 +16,7 @@ Optional:
 2. Fork the project to your own repository (Using Fork button in the project page)
 3. Open the File Explore, navigate to the parent folder of the folder which you want to store the code (Ex: D:\Learning\Selenium). Click on the Address bar and type `cmd`. A terminal will appear.
 4. On this terminal, type `git clone [your git repository link] [the name of the folder you want to store the code]`. Please remember to give **your** repository link, not the original one. Example: https://tgit.kms-technology.com/phuonglam/test-202-introducing-selenium.git not https://tgit.kms-technology.com/fundamentals/test-202-introducing-selenium.git
-  
+5. Pull new code from the original repo: Sometimes, the course owner may want to update the original repo of the course (Example: To provide some utilities so that writing test can be easier), and you must sync the changes from original repo to your repo. To do that, first add the original repo as your remote, follow the link [here](https://help.github.com/articles/configuring-a-remote-for-a-fork/). Then, sync it using the instruction [here](https://help.github.com/articles/syncing-a-fork/). Note: You just need to open the terminal, not the Git bash.
 
 # Compile and run with IntelliJ
 1. Open the project: File > Open > Navigate to project location
