@@ -70,7 +70,7 @@ After finishing those test cases, if you still want to practice more, write out 
 # Commit code
 * Commit your code and push it to your repository (`git add .`, `git commit` and `git push` )
 * Add Phuong Lam to your project with developer role: On the project page, click on Setting button > Members > Search for Phuong Lam > Select "Developer" for "Project Access" field > Click on Add users to project
-* Inform her through email or Skype
+* Submit an [evaluation request](https://klms.kms-technology.com/mod/quiz/view.php?id=1847) on KMLS 
 
 # Contact
 If you need to ask something, feel free to get Phuong at:
