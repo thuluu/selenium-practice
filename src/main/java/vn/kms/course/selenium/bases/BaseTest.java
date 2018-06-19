@@ -8,9 +8,9 @@ public class BaseTest {
     public static void beforeAll(){
         if (firstRun){
             firstRun = false;
-            System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver_win32_2.37.exe");
-            System.setProperty("webdriver.gecko.driver", "src/test/resources/drivers/geckodriver_win64_0.19.1.exe");
-            System.setProperty("webdriver.edge.driver", "src/test/resources/drivers/edgedriver_15063.exe");
+            System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver_mac64_2.40");
+            System.setProperty("webdriver.gecko.driver", "src/test/resources/drivers/geckodriver_mac_0.20.1");
+            System.setProperty("webdriver.edge.driver", "src/test/resources/drivers/edgedriver_16299.exe");
         }
     }
 }

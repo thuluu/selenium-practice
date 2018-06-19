@@ -8,8 +8,10 @@ import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import vn.kms.course.selenium.bases.BaseTest;
 
 import java.net.MalformedURLException;
@@ -19,9 +21,9 @@ public class DemoNoPOMTest extends BaseTest{
     WebDriver driver;
     @BeforeEach
     public void beforeEach() throws MalformedURLException {
-        //driver = new EdgeDriver();
+        driver = new ChromeDriver();
 
-        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), DesiredCapabilities.edge());
+        //driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), DesiredCapabilities.edge());
     }
     @Test
     public void loginSuccessfully(){
