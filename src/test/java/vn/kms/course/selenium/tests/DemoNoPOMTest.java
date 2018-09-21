@@ -33,5 +33,6 @@ public class DemoNoPOMTest extends BaseTest{
         driver.findElement(By.id("password")).sendKeys("kms");
         driver.findElement(By.id("btnSubmit")).click();
         Assertions.assertEquals("Home | PA Tool", driver.getTitle());
+
     }
 }
