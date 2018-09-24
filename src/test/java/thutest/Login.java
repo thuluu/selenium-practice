@@ -20,12 +20,10 @@ public class Login extends BaseTest {
     @BeforeEach
     public void beforeEach() throws MalformedURLException {
         driver = new ChromeDriver();
-
         //driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), DesiredCapabilities.edge());
     }
     @Test
     public void loginSuccessfully(){
-
         driver.get("https://demo.getsaleor.com/en/");
         driver.findElement(By.xpath("//ul[@class='float-right']//a[contains(text(),'Log in')]")).click();
 
