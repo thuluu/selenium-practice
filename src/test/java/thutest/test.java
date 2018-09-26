@@ -29,7 +29,7 @@ public class test extends BaseTest {
     }
 
     @Test
-    public void validateaddtocartfeature(){
+    public void validateaddtocartfeature() throws InterruptedException {
         driver.findElement(By.xpath("//a[@class='nav-link' and contains(text(),'Apparel')]")).click();
         int totalElement = driver.findElements(By.xpath("//div[@class='text-center']//img")).size();
 

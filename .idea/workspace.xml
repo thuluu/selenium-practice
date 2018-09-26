@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf18e1c0-ef91-479a-a2bd-fefbc35b53b2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/thutest/Logout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/thutest/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumPractice.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/thutest/AddToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/thutest/AddToCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/thutest/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/thutest/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/demo/getsaleor/com/AddToCart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/thutest/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/thutest/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/thutest/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/thutest/test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,14 +48,43 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1270411784">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/thutest/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="325">
+              <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,8 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/thutest/AddToCart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="206">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,10 +105,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/thutest/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4403">
-              <caret line="300" column="30" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
+            <state relative-caret-position="85">
+              <caret line="16" column="2" selection-start-line="16" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,8 +135,8 @@
         <option value="$PROJECT_DIR$/src/main/java/vn/kms/course/selenium/bases/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/thutest/Login.java" />
         <option value="$PROJECT_DIR$/src/test/java/thutest/Logout.java" />
-        <option value="$PROJECT_DIR$/src/test/java/thutest/AddToCart.java" />
         <option value="$PROJECT_DIR$/src/test/java/thutest/test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/thutest/AddToCart.java" />
       </list>
     </option>
   </component>
@@ -129,8 +158,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,7 +202,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/User/Documents/GitHub/selenium-practice/src/main/java/vn/kms/course/selenium/bases/BaseTest.java" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/Thu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GitHub/selenium-practice" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -196,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddToCart (1)">
+  <component name="RunManager" selected="JUnit.Login">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -249,6 +278,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thutest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="thutest" />
+      <option name="MAIN_CLASS_NAME" value="thutest.Login" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Logout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPractice" />
       <extension name="coverage">
@@ -259,23 +303,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="thutest" />
       <option name="MAIN_CLASS_NAME" value="thutest.Logout" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Logout.logoutSuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thutest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="thutest" />
-      <option name="MAIN_CLASS_NAME" value="thutest.Logout" />
-      <option name="METHOD_NAME" value="logoutSuccessfully" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -297,18 +324,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Logout" />
-      <item itemvalue="JUnit.Logout.logoutSuccessfully" />
       <item itemvalue="JUnit.AddToCart.validateaddtocartfeature" />
       <item itemvalue="Application.test" />
       <item itemvalue="JUnit.AddToCart (1)" />
+      <item itemvalue="JUnit.Login" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Login" />
         <item itemvalue="JUnit.AddToCart (1)" />
         <item itemvalue="JUnit.AddToCart.validateaddtocartfeature" />
         <item itemvalue="Application.test" />
         <item itemvalue="JUnit.Logout" />
-        <item itemvalue="JUnit.Logout.logoutSuccessfully" />
       </list>
     </recent_temporary>
   </component>
@@ -326,9 +353,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddToCart_(1) - 2018.09.21 at 20h 52m 41s.xml">
-      <configuration name="AddToCart (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AddToCart_validateaddtocartfeature - 2018.09.24 at 23h 14m 08s.xml">
       <configuration name="AddToCart.validateaddtocartfeature" configurationId="JUnit" />
     </history-entry>
@@ -356,12 +380,14 @@
     <history-entry file="AddToCart_(1) - 2018.09.24 at 23h 24m 19s.xml">
       <configuration name="AddToCart (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Login - 2018.09.25 at 22h 47m 18s.xml">
+      <configuration name="Login" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2624811" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26626325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -370,7 +396,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290653" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23731588" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23731588" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -416,16 +442,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/thutest/LoginA.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/thutest/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="16" column="2" selection-start-line="16" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/thutest/Logout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -452,8 +468,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/thutest/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="325">
+          <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/thutest/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="16" column="2" selection-start-line="16" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -462,8 +488,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/thutest/AddToCart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="206">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

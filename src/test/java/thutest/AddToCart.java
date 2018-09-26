@@ -51,11 +51,7 @@ public class AddToCart extends BaseTest {
         Thread.sleep(3000);
         //navigate to cart page
         driver.findElement(By.xpath("//div[@class='navbar__brand__cart__icon']")).click();
-
-        ////div[@class='cart']//p[
-driver.findElement(By.xpath("//div[@class='cart']//p[contains(text(),'"+rand+"')]"));
-
-
+        //driver.findElement(By.xpath("//div[@class='cart']//p[contains(text(),'"+rand+"')]"));
 
         //check price
         String fullPrice1 = driver.findElement(By.xpath("//p[@class='text-right']")).getText();
